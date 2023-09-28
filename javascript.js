@@ -12,7 +12,7 @@ form.addEventListener("submit", async (e) => {
         alert("Formulario enviado con exito!!");
         console.log(`El nombes es: ${nameform.value} y apellidos es: ${lastnameform.value} y la fecha de nacimiento es: ${dateOBform.value}`);
         
-        4const dataname = {
+        const dataname = {
             id: 23,
             name: nameform.value,
             lastName: lastnameform.value,
